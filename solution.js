@@ -6,4 +6,6 @@ console.log(c);
 // exercise two
 
 let radCircle = 1;
-console.log("The area is ", 3.14 * Math.pow(radCircle, 2));
+console.log("The area is ", (Math.PI * Math.pow(radCircle, 2)).toFixed(3));
+
+console.log(Math.ceil(Math.random() * 6));
